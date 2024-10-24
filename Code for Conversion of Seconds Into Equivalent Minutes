@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class Time
+{
+	public static void main(String args[])
+	{
+		int sec,min,rem;
+		Scanner sc = new Scanner (System.in);
+		System.out.print("For Coverting Seconds into Minutes");
+		System.out.print("\n\nEnter the Seconds = ");
+		sec = sc.nextInt();
+
+		min = sec/60;
+		rem = sec-min*60;
+
+		System.out.print("\n\nEquivalent to = " + min + " Minutes and " + rem + " Seconds");
+		System.out.print("\n\n");
+	}
+}
